@@ -1,23 +1,30 @@
-# Daikibo Factory Downtime Analysis
+# Daikibo Factory Operational Performance & Downtime Analysis
 
-## Project Overview
-This project analyzes factory downtime using Tableau to understand machine performance and operational efficiency.
+## 📊 Project Overview
+An interactive Tableau dashboard analyzing factory downtime, machine health, and operational performance using Daikibo manufacturing telemetry data. This project identifies high-downtime facilities and equipment types to help prioritize maintenance schedules.
 
-## Objectives
-- Analyze downtime across factory locations.
-- Identify unhealthy machine conditions.
-- Compare machine performance.
-- Identify factories with higher downtime.
+🔗 **[View Interactive Dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)**
 
-## Tools Used
-- Tableau
-- Data Visualization
-- Data Analysis
+---
 
-## Key Analysis
-- Downtime by Factory
-- Machine Health Analysis
-- Factory Performance Comparison
+## 🖼️ Dashboard Preview
+![Dashboard Preview](images/dashboard-preview.png)
 
-## Project Outcome
-Created an interactive Tableau dashboard to help identify operational issues and understand factory downtime patterns.
+---
+
+## 🔍 Key Insights
+* **Top Downtime Location:** [e.g., Daikibo Factory Meiyo / Shenyang] experienced the highest total unplanned downtime.
+* **Critical Equipment:** [e.g., Laser Welders / Heavy Duty Industrial Presses] accounted for the majority of machine failures.
+* **Operational Trends:** [Add 1–2 takeaways from your charts, such as peak failure shifts or factory comparisons].
+
+---
+
+## 🛠️ Tools & Techniques Used
+* **Tableau Desktop / Public:** Calculated fields, interactive filters, KPI cards, and drill-down bar/map charts.
+* **Data Preparation:** JSON/CSV telemetry parsing and aggregation of machine status logs (`healthy` vs. `unhealthy`).
+
+---
+
+## 📁 Repository Structure
+* `Daikibo_Factory_Analysis.twbx` – Packaged Tableau workbook containing the dashboard and data extract.
+* `images/` – High-resolution screenshots of the dashboard views.
